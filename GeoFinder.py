@@ -1,3 +1,22 @@
+import sys                                                                                                                                                                                                          def print_urlhub():
+    print("""
+
+   _____            ______ _           _
+  / ____|          |  ____(_)         | |
+ | |  __  ___  ___ | |__   _ _ __   __| | ___ _ __
+ | | |_ |/ _ \/ _ \|  __| | | '_ \ / _` |/ _ \ '__|
+ | |__| |  __/ (_) | |    | | | | | (_| |  __/ |
+  \_____|\___|\___/|_|    |_|_| |_|\__,_|\___|_|
+
+----- MADE BY ABDUL REHMAN PARKAR & UMAIR MIRZA -----
+
+
+    """)
+
+if __name__ == "__main__":
+    print_urlhub()
+
+
 from argparse import ArgumentParser
 import colorama
 import requests
